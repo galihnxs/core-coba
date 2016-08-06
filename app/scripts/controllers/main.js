@@ -17,7 +17,7 @@ angular.module('coreCobaApp')
   });
 angular.module('coreCobaApp')
 .controller('driversController',function($scope,ergastAPIservice){
-  $scope.nameFilter = null;
+    $scope.nameFilter = "";
     $scope.driversList = [];
     ergastAPIservice.getDrivers().success(function (response) {
         //Dig into the responde to get the relevant data
