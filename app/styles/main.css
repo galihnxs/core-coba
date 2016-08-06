@@ -8,18 +8,8 @@
 body {
   padding: 0;
 }
-
-/* Everything but the jumbotron gets side spacing for mobile first views */
-.header,
-.marketing,
-.footer {
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
 /* Custom page header */
 .header {
-  border-bottom: 1px solid #e5e5e5;
   margin-bottom: 10px;
 }
 /* Make the masthead heading the same height as the navigation */
@@ -80,4 +70,11 @@ body {
   .jumbotron {
     border-bottom: 0;
   }
+}
+#main-nav{
+  border-top: 0px;
+  border-bottom: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  border-radius: 0px;
 }
